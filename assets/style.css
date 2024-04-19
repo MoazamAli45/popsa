@@ -105,7 +105,8 @@ body {
 }
 .profile-card,
 .location-card,
-.payment-card {
+.payment-card,
+.direction-card {
   display: flex;
   flex-direction: column;
   gap: 15px;
