@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popsa</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <img src="./assets/svg-export/logo.svg" alt="Popsa" class="logo" />
+        <div class="nav-right">
+          <span class="nav-text"> Finalización segura del pedido </span>
+          <img src="./assets/svg-export/lock.svg" alt="lock" class="lock" />
+        </div>
+      </nav>
+      <div class="hero-container">
+        <div class="hero-text-container">
+          <h2 class="hero-heading">Resumen del pedido</h2>
+          <p class="hero-content">
+            Compruebe que los datos indicados a continuación son correctos antes
+            de confirmar su pedido
+          </p>
+        </div>
+        <div class="hero-cards">
+          <div class="detail-cards">
+            <div class="all-cards">
+              <div class="profile-card">
+                <div class="profile-card-header">
+                  <img src="./assets/svg-export/profile.svg" alt="profile" />
+                  <p>Datos de contacto</p>
+                </div>
+                <div class="card profile-card-inner">
+                  <div class="profile-inputs">
+                    <div class="input-container">
+                      <label for="name">Nombre</label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Nombre"
+                      />
+                    </div>
+                    <div class="input-container">
+                      <label for="lname">Apellido</label>
+                      <input
+                        type="text"
+                        id="lname"
+                        name="lname"
+                        placeholder="Apellido"
+                      />
+                    </div>
+                    <div class="input-container">
+                      <label for="email">Correo electrónico</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Correo electrónico"
+                      />
+                    </div>
+                    <div class="input-container">
+                      <label for="country">Número de teléfono móvil</label>
+                      <div class="country-input-container">
+                        <div class="btn-country-code">
+                          <div class="btn-country-text">
+                            <span>EE</span>
+                            <img
+                              src="./assets/svg-export/down.svg"
+                              alt="arrow"
+                            />
+                          </div>
+                        </div>
+                        <div class="btn-country-input-container">
+                          <div class="btn-country-input-text">
+                            <span class="country-code"> +374 </span>
+                          </div>
+                          <input
+                            type="text"
+                            id="country-text-input"
+                            name="country"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-card-footer">
+                    <p>
+                      Estos deben ser sus propios datos de contacto, no los del
+                      destinatario. Popsa le enviará una notificación cuando su
+                      pedido se haya enviado.
+                    </p>
+                    <span class="i-icon">
+                      <img src="./assets/svg-export/i.svg" alt="i" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="direction-card">
+                <div class="profile-card-header">
+                  <img src="./assets/svg-export/loc.svg" alt="profile" />
+                  <p>Dirección de entrega</p>
+                </div>
+                <div class="card card-inner">
+                  <div class="card-content">
+                    <div class="card-content-left">
+                      <div class="loc-pic-container"><span>ag</span></div>
+                      <div class="card-content-text">
+                        <span class="card-header"> afasjg gasfhgas</span>
+                        <span>fasghsa, gasfga, asvdgsa, NSW, 1002, AU</span>
+                      </div>
+                    </div>
+                    <img src="./assets/svg-export/edit.svg" alt="edit" />
+                  </div>
+                </div>
+              </div>
+              <div class="location-card">
+                <div class="profile-card-header">
+                  <img src="./assets/svg-export/truck.svg" alt="profile" />
+                  <p>Método de envío</p>
+                </div>
+                <div class="card card-inner">
+                  <div class="card-content">
+                    <div class="card-content-left">
+                      <img
+                        src="./assets/svg-export/truck-gray.svg"
+                        alt="truck-gray"
+                      />
+                      <div class="card-content-text">
+                        <span class="card-header">Envío estándar</span>
+                        <span>Entrega en 3-5 días laborables</span>
+                      </div>
+                    </div>
+                    <img src="./assets/svg-export/edit.svg" alt="edit" />
+                  </div>
+                </div>
+              </div>
+              <div class="payment-card">
+                <div class="profile-card-header">
+                  <img src="./assets/svg-export/card.svg" alt="profile" />
+                  <p>Método de pago</p>
+                </div>
+                <div class="card card-inner">
+                  <div class="card-content">
+                    <div class="card-content-left">
+                      <img
+                        src="./assets/svg-export/visa.svg"
+                        alt="truck-gray"
+                      />
+                      <div class="card-content-text">
+                        <span class="card-header">XXXX-XXXX-XXXX-5463</span>
+                        <span>afasjg gasfhgas</span>
+                      </div>
+                    </div>
+                    <div class="payment-right-content">
+                      <span> 3/2027 </span>
+                      <img src="./assets/svg-export/edit.svg" alt="edit" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  Right Card -->
+            <div class="cart-card">
+              <div class="profile-card-header">
+                <img src="./assets/svg-export/cart.svg" alt="profile" />
+                <p>Artículos en la cesta</p>
+              </div>
+              <div class="card cart-card-inner">
+                <div class="cart-card-content">
+                  <div class="card-content-header">
+                    <div class="cart-image-container">
+                      <img src="./assets/images/overlay.webp" />
+                    </div>
+                    <div class="cart-header-text">
+                      <span>ghjf</span>
+                      <span class="cart-count"
+                        >1 x Fotolibro de tapa dura (Medio)
+                      </span>
+                    </div>
+                  </div>
+                  <div class="cart-subtotal-container">
+                    <div class="cart-subtotal">
+                      <span class="subtotal">Subtotal</span>
+                      <span> 0.00 Rs</span>
+                    </div>
+                    <div class="cart-subtotal">
+                      <span class="subtotal">Envío estándar</span>
+                      <span> 0.00 Rs</span>
+                    </div>
+                  </div>
+                  <div class="cart-total-container">
+                    <div class="cart-total">
+                      <span>Total</span>
+                      <span> 0.00 Rs</span>
+                    </div>
+                    <div class="cart-discount">
+                      <span>Incluye IVA de</span>
+                      <span> 0.00 Rs</span>
+                    </div>
+                  </div>
+                  <div class="cart-footer">
+                    <img src="./assets/svg-export/tick.svg" alt="tick" />
+                    <span>Incluye descuentos de 2352,99 Rs </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Footer -->
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <button class="footer-btn">Pagar ahora</button>
+      </div>
+    </footer>
+  </body>
+</html>
